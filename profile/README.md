@@ -32,10 +32,14 @@ cargo run --bin rum-server 127.0.0.1:7878
 cargo run --bin rum-client 127.0.0.1:7878
 ```
 
-</br>
 
-#### Very early development stage, not ready for production use.
+
 
 ## 📝 License
 
 Copyright © 2023 [Simon Guglberger](https://github.com/sxmon17) and [Aleksa Nikolic](https://github.com/aaaleks07).</br>
+
+</br>
+
+#### Very early development stage, not ready for production use.
+</br>
