@@ -10,16 +10,16 @@
 ```
 ~/rum-client 127.0.0.1:7878
 ```
+</br>
 
-## Features
+## 🔋 Features
 - [x] advanced server logging
 - [x] pretty welcome and join messages
 - [x] easy to use
 - [x] blazingly fast
+</br>
 
-Very early development stage, not ready for production use.
-
-## Build and run
+## 🔨 Build and run
 ```
 git clone https://github.com/rumessenger/rum
 cd rum
@@ -32,5 +32,7 @@ cargo run --bin rum-server 127.0.0.1:7878
 cargo run --bin rum-client 127.0.0.1:7878
 ```
 
+</br>
 
+#### Very early development stage, not ready for production use.
 
