@@ -1,5 +1,7 @@
-# rumessenger - a lightweight easy to use messenger in rust 📨
-Very early development stage, not ready for production use.
+# 📨 rumessenger
+##### A lightweight easy to use messenger in rust
+
+## How to use
 
 ```
 ~/rum-server 127.0.0.1:7878
@@ -11,6 +13,24 @@ Very early development stage, not ready for production use.
 
 ## Features
 - [x] advanced server logging
-- [x] pretty welcome messages
+- [x] pretty welcome and join messages
 - [x] easy to use
-- [x] lightweight
+- [x] blazingly fast
+
+Very early development stage, not ready for production use.
+
+## Build and run
+```
+git clone https://github.com/rumessenger/rum
+cd rum
+cargo build --release
+```
+```
+cargo run --bin rum-server 127.0.0.1:7878
+```
+```
+cargo run --bin rum-client 127.0.0.1:7878
+```
+
+
+
