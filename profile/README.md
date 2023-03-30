@@ -20,10 +20,7 @@ A web based client in yew.rs
 - [x] Colorful terminal output with Colored and PrettyTable crates 🌈
 - [x] Asynchronous I/O with Tokio ⚡️
 
-## Prerequisites 📚
-
-- Rust (stable) and Cargo 🦀 </br>
-- SQLite 🗄️
+</br>
 
 ## Getting Started 🚀
 
@@ -51,7 +48,16 @@ Commands
 /listusers: List all registered users with their online/offline status 👥.
 /whisper: Private Messenging to a specified user. Usage: /whisper [username] [message]
 
+</br>
+
 ## Building 📦
+
+### Prerequisites
+
+- Rust (stable) and Cargo 🦀 </br>
+- SQLite 🗄️
+
+### Clone
 
 ``` bash
 
@@ -59,14 +65,14 @@ $ git clone https://github.com/FerrumLink/FerrumServe.git
 $ cd ferrum-serve
 ```
 
-#### Build the project
+### Build the project
 
 ``` bash
 
 $ cargo build --release
 ```
 
-#### Running the server
+### Running the server
 
 By default, the server will listen on 127.0.0.1:6142. You can provide an optional IP address and port as a command-line argument.
 
