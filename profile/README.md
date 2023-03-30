@@ -10,6 +10,8 @@ A simple TCP stream forwarder for the cli. To communicate with the server
 ### Web Client 🖥️
 A web based client in yew.rs
 
+</br>
+
 ## Features ✨
 
 - [x] User registration and login 🔐
@@ -18,10 +20,14 @@ A web based client in yew.rs
 - [x] Colorful terminal output with Colored and PrettyTable crates 🌈
 - [x] Asynchronous I/O with Tokio ⚡️
 
+</br>
+
 ## Prerequisites 📚
 
 - Rust (stable) and Cargo 🦀 </br>
 - SQLite 🗄️
+
+</br>
 
 ## Getting Started 🚀
 
@@ -48,9 +54,10 @@ Commands
 
 /listusers: List all registered users with their online/offline status 👥.
 /whisper: Private Messenging to a specified user. Usage: /whisper [username] [message]
+
 </br>
 
-## Building
+## Building 📦
 
 ``` bash
 
@@ -74,6 +81,7 @@ By default, the server will listen on 127.0.0.1:6142. You can provide an optiona
 $ ./target/release/ferrum-serve [IP:PORT]
 ```
 
+</br>
 
 ## 📝 License
 
