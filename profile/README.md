@@ -79,6 +79,6 @@ $ ./target/release/ferrum-serve [IP:PORT]
 
 ## 📝 License
 
-Copyright © 2023 [Simon Guglberger](https://github.com/sxmon17) and [Aleksa Nikolic](https://github.com/aaaleks07).</br>
+Copyright © 2023 [Simon Guglberger](https://github.com/sxmon17) </br>
 </br>
 
