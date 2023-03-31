@@ -45,7 +45,7 @@ $ ~/ferrum-linker 127.0.0.1:6142
 After connecting, you will be prompted to either register a new user or log in with an existing user account. Once logged in, you can start sending messages to all connected users.
 Commands
 
-/listusers: List all registered users with their online/offline status 👥.
+/listusers: List all registered users with their online/offline status 👥. </br>
 /whisper: Private Messenging to a specified user. Usage: /whisper [username] [message]
 
 </br>
